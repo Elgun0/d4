@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+/* Stylish start */
+.stylish{
+    background: url(img/bg-masthead.jpg);
+    padding: 350px 0px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.stylish h1{
+    font-size: 3em;
+}
+.stylish p{
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.stylish input{
+    padding: 18px 25px;
+    font-size: 1.4em;
+    font-weight: 700;
+    background: #1d809f;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    transition: background .4s;
+}
+.stylish input:hover{
+    background: #155d74;
+}
+/* Stylish end */
+/* weOffer start */
+.weOffer{
+    text-align: center;
+    padding: 150px;
+}
+.weOffer h1{
+    font-size: 2.5em;
+}
+.weOffer p{
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+.weOffer p a{
+    text-decoration: none;
+}
+.weOffer p a:hover{
+    border-bottom: 1px solid;
+}
+.weOffer input{
+    padding: 18px 20px;
+    font-size: 1.4em;
+    font-weight: 700;
+    background: #3b3a3a;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    transition: background .4s;
+}
+.weOffer input:hover{
+    background: black;
+}
+/* weOffer end */
+/* services start */
+.services{
+    background: #1d809f;
+    padding: 150px 0px;
+    color: white;
+    text-align: center;
+}
+.services .services-item{
+    float: left;
+    width: 25%;
+}
+.services .services-icon{
+    background: #fff;
+    padding: 25px;
+    border-radius: 100%;
+    width: 85px;
+    margin:auto;
+    color:#1d809f;
+    margin-bottom: 15px;
+}
+.services .services-content{
+    margin-top:50px;
+}
+.services .services-top p{
+    color: gold;
+}
